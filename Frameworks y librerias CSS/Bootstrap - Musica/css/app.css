@@ -1,0 +1,59 @@
+html{
+
+}
+.cont-A{
+  background: url(../img/background.jpg);
+  width: 100%;
+}
+.Contenedor-principal{
+  width: 70%;
+  margin:0 auto;
+  height: 100%;
+  background-color: white;
+}
+header{
+  margin-bottom: 10px;
+}
+.redessociales{
+  text-align: right;
+  display: inline-block;
+  margin-top: 10%;
+}
+.imagenlogo{
+  width: 80%;
+}
+
+.nav{
+  background-color: #81F7F3;
+}
+
+img[class^='estiloimg']{
+  width: 8%;
+}
+.estilopropio{
+  width: 100%;
+  margin-top: 25%;
+}
+.estilopropio2{
+  width: 75%;
+  margin-top: 25%;
+}
+
+table{
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+/*******************************************************************************/
+@media all and (max-width: 900px) {
+.redessociales{
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+.col-xs-3{
+  margin-top: 0%;
+}
+}

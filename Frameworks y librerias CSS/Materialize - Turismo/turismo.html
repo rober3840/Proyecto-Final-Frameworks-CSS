@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!--Importar la fuente de los íconos de Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Blog de Turismo</title>
+</head>
+  <body>
+    <div class="row">
+        <div class="navbar-fixed">
+          <nav>
+            <div class="nav-wapper">
+              <a class="brand-logo left" href="#"><img class="logosize" src="img/logo.png" alt="Logo Turismo" ></a>
+              <ul class="right hide-on-small-only">
+                <li class="active"><a href="#"><i class="material-icons left">home</i><span class="hide-on-med-only">Inicio</span></a></li>
+                <li><a href="#"><i class="material-icons left">place</i><span class="hide-on-med-only">Estuve...</span></a></li>
+                <li><a href="#"><i class="material-icons left">thumb_up</i><span class="hide-on-med-only">Mejores</span></a></li>
+                <li><a href="#"><i class="material-icons left">grade</i><span class="hide-on-med-only">Recomendados</span></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col m2 l2 valign center-align hide-on-small-only">
+        <dl class="sub-nav">
+          <dd class="active"><a href="#"><i class="fi-social-facebook Size-Icons"></i></a></dd>
+          <dd><a href="#"><i class="fi-social-twitter Size-Icons"></i></a></dd>
+          <dd><a href="#"><i class="fi-social-instagram Size-Icons"></i></a></dd>
+          <dd><a href="#"><i class="fi-social-youtube Size-Icons"></i></a></dd>
+          <dd><a href="#"><i class="fi-social-google-plus Size-Icons"></i></a></dd>
+        </dl>
+      </div>
+      <div class="col m10 l10">
+        <div class="col m4 l4">
+          <div class="img-art-g">
+            <img src="img/bsas1.jpg" class="responsive-img  transparent z-depth-5"/>
+          </div>
+          <div class="img-art-g">
+            <img src="img/bsas2.jpg" class="responsive-img transparent z-depth-5"/>
+          </div>
+        </div>
+        <div class="col m4 l2">
+          <div class="img-art-g">
+            <img src="img/bsas3.jpg" class="responsive-img transparent z-depth-5"/>
+          </div>
+        </div>
+        <div class="col m4 l4">
+          <div class="img-art-g">
+            <img src="img/bsas4.jpg" class="responsive-img transparent z-depth-5"/>
+          </div>
+          <div class="img-art-g">
+            <img src="img/bsas5.jpg" class="responsive-img transparent z-depth-5"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row s12 m12 l12">
+      <div class="col s12 m12 l8">
+        <div class="row">
+          <div class="col black-text">
+            <div class="card horizontal hoverable">
+              <div class="card-image col l8">
+                <img src="img/palermo.jpg" class="responsive-img img-art-g z-depth-3">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h2 class="header">Bosques de Palermo</h2>
+                  <div class="chip">05 de Septiembre de 2018<i class="material-icons right">date_range</i></div>
+                  <div class="chip">Palermo BSAS, Argentina<i class="material-icons right">location_on</i></div>
+                  <hr>
+                  <p>Con más de 80 hectáreas, es uno de los más grandes espacios verdes de Buenos Aires. Los habitantes de la ciudad lo visitan para hacer pícnics o para practicar deportes. Comenzó a construirse en 1874 por iniciativa del presidente Domingo F. Sarmiento . El diseño original estuvo a cargo de los arquitectos Oldendorf, Mauduit y Wysocky; de las obras también participó el arquitecto belga Jules Dormal (uno de los arquitectos del Teatro Colón y del Congreso).</p>
+                  <p>Fue inaugurado en 1875. A partir de 1892, el encargado de las numerosas reformas y ampliaciones fue Carlos Thays (el principal de los paisajistas que trabajó en Argentina a finales del siglo XIX y principios del XX). En el parque se encuentran dos lagos artificiales que pueden recorrerse en bote o en bicicletas de agua. Se calcula que los bosques cuentan con más de 12.000 árboles, muchos de los cuales son tipas, eucaliptos, talas y ombúes. Dentro del parque, en la Plaza Holanda, se ubica El Rosedal, un jardín con más de 12.000 rosales.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m12 l12">
+            <div class="card-panel hoverable comentario">
+              <h4 class="header">Deja tu comentario</h4>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="Escribe aqui tu nombre..." id="nombre" type="text" class="validate">
+                  <label class="active white-text" for="nombre"><i class="material-icons left white-text">account_circle</i>Nombre:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input placeholder="user@correo.com" id="correo" type="text" class="validate">
+                  <label class="active white-text" for="correo"><i class="material-icons left white-text">email</i>Correo:</label>
+                </div>
+                <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea" placeholder="Ingresa tu comentario..."></textarea>
+                    <label class="active white-text" for="first_name2"><i class="material-icons left white-text">insert_comment</i>Comentario:</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l4 black-text">
+        <div class="card-panel hoverable">
+          <div class="valign center-align">
+            <img class="circle responsive-img" src="img/user.png" alt="Autor">
+          </div>
+          <h2 class="header valign center-align">Perfil del autor</h2>
+          <hr>
+          <p class="valign center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

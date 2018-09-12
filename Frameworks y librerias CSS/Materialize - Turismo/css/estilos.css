@@ -1,0 +1,55 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+body {
+  background:url(../img/cielo.jpg) no-repeat top;
+  background-attachment: fixed;
+  }
+
+.logosize{
+    width: 8rem;
+    height: 4rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+
+  .Size-Icons {
+    font-size: 48px;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #1565C0;
+    padding: 0px 10px 0px 10px;
+   }
+
+  .nav-wapper {
+    height: 90px;
+    padding-top: 10px;
+    line-height: 70px;
+    background-color: #42a5f5 !important;
+  }
+
+  .img-art-g {
+    border: 1px solid rgba(0,0,0,1);
+    background: rgba(0,0,0,0.8);
+    border-radius: 6px;
+    padding: 1px 1px 1px 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    padding-top: 20px;
+  }
+
+.chip {
+  margin-top: 10px;
+}
+
+.comentario {
+  color: white;
+  background-color: #42a5f5;
+}
